@@ -152,41 +152,58 @@ public class Geometry
       System.out.println("6. Find the perimeter of a triangle");
       System.out.print("Enter the number of your choice: ");
    }
+   //The method above prints out the menu to the user and asks them what they want to do.
+   //This method doesn't require anything to call because it has no parameters. It also returns nothing because it is of type void.
+
    // TASK #2 Create the value-returning methods here
    public static double circleArea(double radius){
       double area;
       area=(3.14)*(radius*radius);
       return area;
    }
+   //The method above calculates the area of the circle.
+   //This method requires you to pass a double as the radius for the circle, then it returns a double value as the area.
 
    public static double rectangleArea(double length, double width){
       double area;
       area=length*width;
       return area;
    }
-
+   //the method above calculates the Area of a rectangle.
+   //This method requires you too pass 2 doubles (height & length) into it when called, and returns a double value as the area.
+   
    public static double triangleArea(double base, double height){
       double area;
       area=(base*height)/2;
       return area;
    }
+   //The method above calculates the area of a triangle.
+   //This method requires you to pass it 2 doubles (base & height) into it when called, and returns a double as the area.
 
    public static double circleCircumference(double radius){
       double circumference;
       circumference=(3.14)*(2*radius);
       return circumference;
    }
+   //The method above calculates the circumference of a circle.
+   //This method requires you to pass it a double as the radius into it when called, and returns a double as the circumference.
 
    public static double rectanglePerimeter(double length, double width){
       double perimeter;
       perimeter=(2*length)+(2*width);
       return perimeter;
    }
+   //The method above calculates the perimeter of a rectangle.
+   //This method requires you to pass in 2 doubles when you call it. Then it returns a double as the perimeter.
 
    public static double trianglePerimeter(double side1, double side2, double side3){
       double perimeter;
       perimeter=side1+side2+side3;
       return perimeter;
    }
+   //This method calculates the perimeter of a triangle.
+   //This method requires you to pass in 3 doubles, one for each side of the triangle. Then it returns a double as the perimeter.
+
+
    // TASK #4 Write javadoc comments for each method
 }
