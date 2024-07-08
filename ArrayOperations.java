@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.io.*;
 
 public class ArrayOperations {
     public static void main(String[] args){
@@ -32,7 +31,7 @@ public class ArrayOperations {
         System.out.println("Sum of Array Elements: "+sum);
 
         //Finding and printing the highest value of the array...
-        //This was a hard part, it took me some time on how I should approach it
+        //This was a hard part, it took me some time on how I should approach it.
         int highest = 0;
 
         for(int i=0; i<intArray.length; i++){
@@ -47,7 +46,7 @@ public class ArrayOperations {
         System.out.println("Highest value: "+highest);
 
         //Finding and printing the lowest value of the array...
-        //This was a hard part, it took me some time on how I should approach it
+        //This was a hard part, it took me some time on how I should approach it.
         int lowest = intArray[0];
 
         for(int i=0; i<intArray.length; i++){
